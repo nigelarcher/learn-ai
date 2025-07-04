@@ -1,0 +1,124 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch model files
+*.pth
+*.pt
+checkpoints/
+models/saved/
+*.model
+
+# TensorFlow model files
+*.h5
+*.pb
+saved_model/
+
+# Data files
+data/raw/
+data/processed/
+*.csv
+*.json
+*.pkl
+*.pickle
+*.parquet
+*.feather
+
+# Logs and monitoring
+logs/
+*.log
+tensorboard_logs/
+wandb/
+mlruns/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Claude Code settings
+.claude/settings.local.json
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Model artifacts and outputs
+outputs/
+results/
+experiments/
+artifacts/
+
+# Large data files
+*.gz
+*.zip
+*.tar
+*.tgz
+
+# Secrets and API keys
+.env.local
+.env.production
+secrets/
+api_keys/
+credentials/
+
+# Generated documentation
+docs/build/
+site/
+
+# Cache directories
+.cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Node.js (if using any JS tools)
+node_modules/
+npm-debug.log*
