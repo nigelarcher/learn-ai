@@ -1,0 +1,32 @@
+{
+  "session": {
+    "session_start": "2025-07-05T07:27:51.607362",
+    "total_messages": 4,
+    "user_questions": 2,
+    "average_confidence": 0.20538752496182816
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "what is bobs name",
+      "timestamp": "2025-07-05T07:27:55.180501"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm not very confident about this, but here's what I found: The key components of a RAG system are: 1) Document Store - where all the \n            knowledge is stored as searchable chunks, 2) Embedder - converts text into numerical \n            vectors for similarity search, 3) Retriever - finds the most relevant documents for a query, \n            and 4) Generator - creates the final answer using the retrieved context.\n\nSources: chunking_strategies.txt, rag_architecture.txt",
+      "confidence": 0.12570878250110887,
+      "timestamp": "2025-07-05T07:27:55.182461"
+    },
+    {
+      "role": "user",
+      "content": "what is a rag",
+      "timestamp": "2025-07-05T07:27:59.443399"
+    },
+    {
+      "role": "assistant",
+      "content": "RAG stands for Retrieval-Augmented Generation. Additionally: It's a technique that combines \n            information retrieval with text generation. When you ask a question, RAG first searches \n            through a database of documents to find relevant inform...\n\nSources: rag_basics.txt",
+      "confidence": 0.2850662674225475,
+      "timestamp": "2025-07-05T07:27:59.443591"
+    }
+  ]
+}
