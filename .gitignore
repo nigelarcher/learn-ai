@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+virtualenv/
+venv*/
+env*/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files
+data/scraped_ai_knowledge.json
+data/chatbot_conversation.json
+data/rag_demo_index.json
+data/wikipedia_ai_rag_index.json
+data/vector_store_demo.json
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Environment variables
+.env
+.env.local
+
+# Model files
+*.pth
+*.pt
+*.pkl
+*.pickle
+models/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
